@@ -1,0 +1,16 @@
+VAR
+	speed : INT;
+	gAxis01 : ACP10AXIS_typ;
+	gAxis01_HW : SdcHwCfg_typ := (0);
+	gAxis01_DrvIf : SdcDrvIf16_typ := (0);
+	gAxis01_DiDoIf : SdcDiDoIf_typ := (0);
+	gAxis01_ModuleOk : BOOL := 0;
+	LED : ARRAY[0..3] OF BOOL := [4(0)];
+	button1 : BOOL := FALSE;
+	button2 : BOOL := FALSE;
+	button3 : BOOL := FALSE;
+	button4 : BOOL := FALSE;
+	button5 : BOOL := FALSE;
+	counter : USINT := 0;
+	EVRID : DRIVE;
+END_VAR

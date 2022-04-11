@@ -1,0 +1,11 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Users/admin/Desktop/lab4/Physical/labBR/4PP065_0571_P74/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="ncsdcctrl" Source="ncsdcctrl.prg" />
+      <Task Name="Program_LE" Source="Program_LED.prg" />
+      <Task Name="drive_cont" Source="drive_control.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>
